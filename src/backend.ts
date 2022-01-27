@@ -3,15 +3,7 @@ import express from 'express'
 const app = express()
 const port = 3000
 
-app.use((req, res, next) => {
-	res.setHeader("Access-Control-Allow-Origin", '*')
-	res.setHeader("Access-Control-Allow-Headers", 'authorization')
-	if (req.method === "OPTIONS") {
-		res.status(200).send()
-	} else {
-		next()
-	}
-})
+app.use(express.static('public'))
 
 app.get('/users', (req, res) => {
 	try {
