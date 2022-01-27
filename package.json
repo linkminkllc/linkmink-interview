@@ -4,8 +4,8 @@
   "description": "linkmink interview problems",
   "main": "index.js",
   "scripts": {
-    "proj1": "node build/backend.js",
-    "proj2": "node build/bugfix.js",
+    "proj1": "tsc && node build/backend.js",
+    "proj2": "tsc && node build/bugfix.js",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
