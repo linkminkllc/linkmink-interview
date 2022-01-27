@@ -30,7 +30,8 @@ npm run proj2
 ## Project 1
 
 An express app is provided which has one endpoint that returns a collection of
-users. Using your preferred frontend framework, build a component that:
+users. All of the documentation for this API is included below. Using your
+preferred frontend framework (or plain js), build a component that:
 
 - Calls the API, 
 - Sorts the users based on score
