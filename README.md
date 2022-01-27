@@ -37,12 +37,13 @@ preferred frontend framework (or plain js), build a component that:
 - Sorts the users based on score
 - Renders the list of users with their score next to their name (e.g. `Doug: 128`)
 
-### Authentication
+### API Documentation
+*Authentication*
 
 Authenticate all api calls using a Bearer Token in the HTTP Authorization
 header. The token value is `tok_123abc`.
 
-### `/users`
+*`/users`*
 
 Returns a collection of all users. The users are returned in no specific order.
 
